@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.awais.filemanager.fragments.StorageFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.filemanager.fragments.StorageFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/storage_fragment"
@@ -81,4 +81,4 @@
             app:layoutManager="org.fossify.commons.views.MyGridLayoutManager" />
 
     </RelativeLayout>
-</org.awais.filemanager.fragments.StorageFragment>
+</com.android.filemanager.fragments.StorageFragment>

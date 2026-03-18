@@ -149,7 +149,7 @@
     <ID>WildcardImport:ItemsFragment.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:ManageFavoritesAdapter.kt$import android.view.*</ID>
     <ID>WildcardImport:MimeTypesActivity.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:MimeTypesActivity.kt$import org.awais.filemanager.helpers.*</ID>
+    <ID>WildcardImport:MimeTypesActivity.kt$import com.android.filemanager.helpers.*</ID>
     <ID>WildcardImport:MyViewPagerFragment.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:ReadTextActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:SaveAsActivity.kt$import org.fossify.commons.extensions.*</ID>

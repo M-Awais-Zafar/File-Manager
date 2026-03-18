@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.awais.filemanager.fragments.ItemsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.filemanager.fragments.ItemsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/items_fragment"
@@ -68,7 +68,7 @@
                 android:textStyle="italic"
                 android:visibility="gone" />
 
-            <org.awais.filemanager.views.MySwipeRefreshLayout
+            <com.android.filemanager.views.MySwipeRefreshLayout
                 android:id="@+id/items_swipe_refresh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                         app:layoutManager="org.fossify.commons.views.MyGridLayoutManager" />
 
                 </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
-            </org.awais.filemanager.views.MySwipeRefreshLayout>
+            </com.android.filemanager.views.MySwipeRefreshLayout>
         </RelativeLayout>
 
         <org.fossify.commons.views.MyFloatingActionButton
@@ -102,4 +102,4 @@
             android:src="@drawable/ic_plus_vector" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-</org.awais.filemanager.fragments.ItemsFragment>
+</com.android.filemanager.fragments.ItemsFragment>

@@ -106,13 +106,14 @@ android {
         generateLocaleConfig = true
     }
 
+    //noinspection WrongGradleMethod
     tasks.withType<KotlinCompile> {
         compilerOptions.jvmTarget.set(
             JvmTarget.fromTarget(project.libs.versions.app.build.kotlinJVMTarget.get())
         )
     }
 
-    namespace = project.property("APP_ID").toString()
+    namespace = "com.android.filemanager"
 
     lint {
         checkReleaseBuilds = false
@@ -137,7 +138,9 @@ detekt {
 }
 
 dependencies {
-    implementation(libs.fossify.commons)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.roottools)
@@ -146,5 +149,9 @@ dependencies {
     implementation(libs.gestureviews)
     implementation(libs.autofittextview)
     implementation(libs.zip4j)
+    implementation(libs.reprint)
+    implementation(libs.fossify.commons)
+    implementation(libs.qtalk.fastscroller)
+    implementation(libs.glide)
     detektPlugins(libs.compose.detekt)
 }

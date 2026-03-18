@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="package_name">org.awais.filemanager</string>
-    <string name="app_name">Fossify File Manager</string>
+    <!-- The library compares this string with the actual applicationId to verify integrity.
+         Setting it to match your applicationId should resolve the 'fake version' warning. -->
+    <string name="package_name">com.android.filemanager</string>
+    <string name="app_name">File Manager</string>
 </resources>

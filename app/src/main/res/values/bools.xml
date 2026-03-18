@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This flag disables the integrity check in the Fossify Commons library,
+         removing the 'fake version' dialog for rebranded builds. -->
+    <bool name="is_community_build">true</bool>
+</resources>
